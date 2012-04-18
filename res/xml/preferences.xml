@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <EditTextPreference
+        android:id="@+id/username"
+        android:key="username"
+        android:title="@string/username_label"
+        android:summary="@string/username_summary" />
+    
+    <EditTextPreference
+        android:id="@+id/timer"
+        android:key="timer"
+        android:title="@string/timer_label"
+        android:summary="@string/timer_summary"
+        android:inputType="number" />
+    
+    <CheckBoxPreference
+        android:id="@+id/use_timer"
+        android:key="use_timer"
+        android:title="@string/use_timer_label"
+        android:summary="@string/use_timer_summary"
+        android:defaultValue="true" />
+    
+    <Preference
+        android:id="@+id/reset"
+        android:key="reset"
+        android:title="@string/reset_label"
+        android:summary="@string/reset_summary" />\
+        
+    <Preference
+        android:id="@+id/version"
+        android:key="version"
+        android:title="@string/version_label"
+        android:summary="@string/version_summary"
+        android:enabled="false" />
+    
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Quizy</string>
+	<string name="quiz">Questions area!</string>
+	<string name="action_bar">Action bar area!</string>
+	<string name="dialog_title">No Localization</string>
+	<string name="about_app">This app is created to handle different sorts of quizes. For example I created it for myself to solve driving tests. In future it should be able to handle differet quizes with a help of XML files and databases. You this to prepare yourself for exams and stuff like that.</string>
+	<string name="username_label">Username</string>
+	<string name="username_summary">The username, that will be associated with quiz results</string>
+	<string name="timer_label">Timer</string>
+	<string name="timer_summary">The estimated time for a quiz (min)</string>
+	<string name="reset_label">Reset preferences</string>
+	<string name="reset_summary">Set factory settings for current application</string>
+	<string name="use_timer_label">Use timer</string>
+	<string name="use_timer_summary">Should use timer to limit quiz time?</string>
+	<string name="version_label">Version</string>
+	<string name="version_summary">1.0</string>
+</resources>
